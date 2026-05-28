@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bebas+Neue&family=Changa+One:ital@0;1&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Squada+One&family=Teko:wght@300..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Teko", sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+img {
+    width: 20px;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background: #401F70;
+    background: linear-gradient(6deg, rgba(7, 7, 25, 1) 0%, rgba(64, 31, 112, 1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Load-tela {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: all 3s ease;
+}
+
+.Load-tela img {
+    width: 100%;
+    max-width: 450px;
+    animation: flueimg 4s linear infinite;
+}
+
+@keyframes flueimg {
+    0% {
+        transform: scale(0.90);
+    }
+
+    50% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(0.90);
+    }
+}
+
+.Load-tela div p {
+    text-align: center;
+}
+
+.Load-tela div .load-barra-t {
+    margin-top: 10px;
+    background: transparent;
+    border: 2px solid #6f5791;
+    border-radius: 20px;
+    width: 300px;
+}
+
+.Load-tela div .load-barra-t .load-barra {
+    background: radial-gradient(circle, rgb(91, 52, 150) 0%, rgba(64, 31, 112, 1) 100%);
+    margin: 10px;
+    border-radius: 10px;
+    height: 15px;
+}
+
+@keyframes loadbar {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 280px;
+    }
+}
+
+/* ___________________________________________INICIO____*/
+
+
+.tela-home {
+    display: none;
+    padding: 20px;
+    transition: all 3s ease;
+}
+
+.tela-home .box-infos {
+    max-width: 500px;
+    max-height: 20%;
+    padding: 15px;
+    border-radius: 15px;
+    background: #171132;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tela-home .box-infos img {
+    width: 100%;
+    max-width: 150px;
+}
+
+.tela-home .box-infos p {
+    background: #211948;
+    border-radius: 10px;
+    min-width: 300px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: clamp(12px, 1vw, 13px);
+    color: #dddddd;
+}
+
+.tela-home .box-infos button {
+    margin-top: 25px;
+    border: none;
+    border-radius: 5px;
+    background: #6f5791;
+    width: 200px;
+    height: 50px;
+    transition: all 1s ease;
+    cursor: pointer;
+}
+
+.tela-home .box-infos button:hover {
+    transform: scale(0.97);
+}
