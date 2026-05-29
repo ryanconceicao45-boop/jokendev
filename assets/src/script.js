@@ -4,10 +4,10 @@ const HomeTela = document.querySelector('.tela-home')
 const textInfos = document.querySelector('.text-infos')
 
 let dados = await fetch('./assets/src/config.json').then(r => r.json())
+const somLoad = new Audio('./assets/sound/inicio.mp3')
 
 const devSom = (som) => {
     if (som === 'loadsom') {
-        const somLoad = new Audio('./assets/sound/inicio.mp3')
         somLoad.play()
     }
 }
