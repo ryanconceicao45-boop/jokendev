@@ -153,32 +153,10 @@ input:focus {
 .bg-main {
     display: block;
     width: 100%;
-    height: var(--spacing-bar);
+    /* height: var(--spacing-bar); */
     background: var(--card-bg);
     z-index: 1;
 }
-
-.bg-main::before {
-    display: flex;
-    content: '';
-    width: 100vw;
-    height: 1px;
-    background: linear-gradient(90deg, var(--card-bg-hover), #1a1547);
-    background-size: 200% 200%;
-    animation: radiunsAni 2s linear infinite;
-}
-
-.bg-main::after {
-    display: flex;
-    content: '';
-    width: 100vw;
-    height: 1px;
-    background: linear-gradient(90deg, var(--card-bg-hover), #1a1547);
-    background-size: 200% 200%;
-    animation: radiunsAni 2s linear infinite;
-}
-
-
 
 @keyframes radiunsAni {
 
@@ -199,7 +177,7 @@ input:focus {
 .bg-main .bg-main-segs {
     max-width: 1200px;
     margin: 0 auto;
-    height: var(--spacing-bar);
+    /* height: var(--spacing-bar); */
     display: flex;
     justify-content: space-around;
     align-items: center;
