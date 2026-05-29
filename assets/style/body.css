@@ -215,7 +215,6 @@ input:focus {
     display: flex;
     align-items: center;
     gap: 10px;
-    margin-bottom: 15px;
 }
 
 .box-status-user img,
