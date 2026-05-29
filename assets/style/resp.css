@@ -28,22 +28,22 @@
         border-radius: 20px;
     }
 
-    .box-status-user {
+     .box-status-machine  {
         margin: 0;
         position: fixed;
         display: flex;
         align-items: center;
         text-align: left;
         gap: 10px;
-        top: calc(var(--spacing-bar) / 20);
+        top: 10px;
         left: 10px;
     }
 
-    .box-status-machine {
+    .box-status-user {
         margin: 0;
         position: fixed;
         right: 10px;
-        bottom: calc(var(--spacing-bar) / 25);
+        bottom: 10px;
         z-index: 999;
     }
 

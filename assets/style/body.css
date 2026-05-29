@@ -15,7 +15,7 @@
     --card-bg: #12122A;
     --card-bg2: #191939;
     --card-bg-hover: #333370;
-    --spacing-bar: 73vh;
+    --spacing-bar: 78vh;
 }
 
 
@@ -248,7 +248,7 @@ input:focus {
     transform: scale(0.91);
 }
 
-.box-status-machine {
+.box-status-user {
     display: flex;
     align-items: center;
     flex-direction: row-reverse;
