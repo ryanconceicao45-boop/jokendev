@@ -15,7 +15,7 @@
     --card-bg: #12122A;
     --card-bg2: #191939;
     --card-bg-hover: #333370;
-    --spacing-bar: 80vh;
+    --spacing-bar: 73vh;
 }
 
 
@@ -153,7 +153,7 @@ input:focus {
 .bg-main {
     display: block;
     width: 100%;
-    /* height: var(--spacing-bar); */
+    height: var(--spacing-bar);
     background: var(--card-bg);
     z-index: 1;
 }
@@ -177,7 +177,7 @@ input:focus {
 .bg-main .bg-main-segs {
     max-width: 1200px;
     margin: 0 auto;
-    /* height: var(--spacing-bar); */
+    height: var(--spacing-bar);
     display: flex;
     justify-content: space-around;
     align-items: center;

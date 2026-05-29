@@ -8,12 +8,12 @@
 } */
 
 @media screen and (max-width: 800px) {
+
     .bg-main .bg-main-segs {
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: space-between;
-        padding: 20px 0;
+        justify-content: center;
     }
 
     .box-funcions {
@@ -35,7 +35,7 @@
         align-items: center;
         text-align: left;
         gap: 10px;
-        top: 10px;
+        top: calc(var(--spacing-bar) / 20);
         left: 10px;
     }
 
@@ -43,7 +43,7 @@
         margin: 0;
         position: fixed;
         right: 10px;
-        bottom: 10px;
+        bottom: calc(var(--spacing-bar) / 25);
         z-index: 999;
     }
 
