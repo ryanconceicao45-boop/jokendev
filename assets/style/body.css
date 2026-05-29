@@ -36,7 +36,7 @@ input:focus {
 
 
 .Load-tela {
-    display: none;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -151,7 +151,7 @@ input:focus {
 
 
 .bg-main {
-    display: block;
+    display: none;
     width: 100%;
     height: var(--spacing-bar);
     background: var(--card-bg);
