@@ -18,13 +18,11 @@
     --spacing-bar: 80vh;
 }
 
-img {
-    width: 50px;
-}
 
 body {
-    height: 100vh;
-    overflow: hidden;
+    min-height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
     background: var(--bg);
     display: flex;
     justify-content: center;
@@ -198,8 +196,6 @@ input:focus {
 
 }
 
-
-
 .bg-main .bg-main-segs {
     max-width: 1200px;
     margin: 0 auto;
@@ -215,6 +211,7 @@ input:focus {
     display: flex;
     align-items: center;
     gap: 10px;
+    margin-bottom: 25px;
 }
 
 .box-status-user img,
