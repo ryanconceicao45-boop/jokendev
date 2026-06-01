@@ -5,10 +5,30 @@ const textInfos = document.querySelector('.text-infos')
 import { carregarDados } from './config.js'
 const dados = await carregarDados()
 
-const BASE_URL = window.location.pathname.includes('/') ? '/' + window.location.pathname.split('/')[1] : ''
+const sons = {
+    inicio: new Audio('./assets/sound/inicio.mp3'),
+    click: new Audio('./assets/sound/click.mp3'), 
+    winner: new Audio('./assets/sound/winner.mp3'), 
+    over: new Audio('./assets/sound/over.mp3'), 
+    empate: new Audio('./assets/sound/empate.mp3'), 
+    
+}
 
-const somLoad = new Audio(`./assets/sound/inicio.mp3`)
-// ${BASE_URL}/
+document.addEventListener('click', () => {
+    Object.values(sons).forEach(som => {
+        som.play().then(() => som.pause())
+        som.currentTime = 0
+    })
+    console.log(22)
+}, { once: true })
+
+const tocarSom = (nome) => {
+    const som = sons[nome]
+    if (!som) return console.warn(`Som "${nome}" não encontrado.`)
+    som.currentTime = 0
+    som.play().catch(err => console.warn('Erro ao tocar som:', err))
+}
+
 const mainInfo = () => {
     LoadTela.style.display = `none`
     HomeTela.style.display = `flex`
@@ -32,7 +52,9 @@ const mainPartida = document.querySelector('.bg-main')
 bntIniciar.addEventListener('click', function () {
     HomeTela.style.display = `none`
     mainPartida.style.display = `block`
-    somLoad.play()
+    setTimeout(() => {
+        tocarSom('inicio')
+    }, 200);
 })
 
 // -----// START DA FUNÇÃO
@@ -64,6 +86,7 @@ const chooseMachine = (receive) => {
 
 const chooseElm = (elm) => { // Funcao para escolher o elemento
     if (elmChooseUser === '') {
+        tocarSom('click')
         elmChooseUser = elm
         elmChooseMachine = chooseMachine()
         console.log(elmChooseUser, elmChooseMachine)
@@ -131,6 +154,7 @@ const winnerfuc = () => {
 
 const sumpoint = (who, caption) => {
     if (who === 'User') {
+        tocarSom('winner')
         allPonto.user++
         pontoUser.innerHTML = `${allPonto.user}`
         boxUser.innerHTML = `
@@ -142,6 +166,7 @@ const sumpoint = (who, caption) => {
         <img class="choose-elm" src="./assets/img/${elmChooseMachine}.png" alt="${elmChooseMachine}">
         `
     } else if (who === 'Machine') {
+        tocarSom('over')
         allPonto.machine++
         pontoMachine.innerHTML = `${allPonto.machine}`
         boxMachine.innerHTML = `
@@ -153,6 +178,7 @@ const sumpoint = (who, caption) => {
         <img class="choose-elm" src="./assets/img/${elmChooseUser}.png" alt="${elmChooseUser}">
         `
     } else {
+        tocarSom('empate')
         boxMachine.innerHTML = `<p>Nenhum ganhador!</p>`
         boxUser.innerHTML = `<p>Nenhum ganhador!</p>`
     }
@@ -167,6 +193,7 @@ const closeLoad = (caption) => {
     const btnLoads = document.querySelector('.bnt-load')
     btnLoads.addEventListener('click', function () {
         restart()
+        tocarSom('click')
     }, { once: true })
 }
 
