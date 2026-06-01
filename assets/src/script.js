@@ -5,8 +5,10 @@ const textInfos = document.querySelector('.text-infos')
 import { carregarDados } from './config.js'
 const dados = await carregarDados()
 
-const somLoad = new Audio('./assets/sound/inicio.mp3') //somLoad.play()
+const BASE_URL = window.location.pathname.includes('/') ? '/' + window.location.pathname.split('/')[1] : ''
 
+const somLoad = new Audio(`./assets/sound/inicio.mp3`)
+// ${BASE_URL}/
 const mainInfo = () => {
     LoadTela.style.display = `none`
     HomeTela.style.display = `flex`
@@ -30,6 +32,7 @@ const mainPartida = document.querySelector('.bg-main')
 bntIniciar.addEventListener('click', function () {
     HomeTela.style.display = `none`
     mainPartida.style.display = `block`
+    somLoad.play()
 })
 
 // -----// START DA FUNÇÃO
