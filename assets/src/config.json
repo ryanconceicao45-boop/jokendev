@@ -1,6 +1,45 @@
 {
     "Main": {
-        "timeScrenn": 5,
-        "TextInfo": "Olá, jogador(a), seja muito bem‑vindo(a) ao Joker Dev!<br><br>O Joker Dev é um jogo inspirado no clássico Jokenpô (Pedra, Papel e Tesoura), porém desenvolvido de forma virtual e totalmente offline. Ele não é jogado online, e sim contra a máquina, mantendo o mesmo padrão de regras e dinâmica do jogo original: Pedra, Papel e Tesoura disputando rodadas em um confronto um contra um.<br><br>                O objetivo é simples e direto: tomar decisões rápidas, treinar reflexo e estratégia, sempre competindo contra a inteligência da máquina. O jogo foi idealizado e desenvolvido por Ryan.dev, que criou essa versão virtual para trazer o tradicional Jokenpô de uma forma moderna, acessível e focada em experiência local."
+        "timeScrenn": 7,
+        "timeOponenteEscolher": 1,
+        "TextInfo": "Olá, jogador(a), seja muito bem‑vindo(a) ao Joker Dev!<br><br>O Joker Dev é um jogo inspirado no clássico Jokenpô (Pedra, Papel e Tesoura), porém desenvolvido de forma virtual e totalmente offline. Ele não é jogado online, e sim contra a máquina, mantendo o mesmo padrão de regras e dinâmica do jogo original: Pedra, Papel e Tesoura disputando rodadas em um confronto um contra um.<br><br>                O objetivo é simples e direto: tomar decisões rápidas, treinar reflexo e estratégia, sempre competindo contra a inteligência da máquina. O jogo foi idealizado e desenvolvido por Ryan.dev, que criou essa versão virtual para trazer o tradicional Jokenpô de uma forma moderna, acessível e focada em experiência local.",
+        "cuntElement": [
+            "papel",
+            "tesoura",
+            "pedra",
+            "pedra",
+            "tesoura",
+            "papel",
+            "pedra",
+            "papel",
+            "tesoura",
+            "tesoura",
+            "pedra",
+            "papel",
+            "papel",
+            "pedra",
+            "tesoura",
+            "tesoura",
+            "papel",
+            "pedra",
+            "pedra",
+            "tesoura",
+            "papel",
+            "papel",
+            "pedra",
+            "tesoura",
+            "tesoura",
+            "papel",
+            "pedra",
+            "papel",
+            "tesoura",
+            "pedra",
+            "pedra",
+            "papel",
+            "tesoura",
+            "tesoura",
+            "pedra",
+            "papel"
+        ]
     }
 }

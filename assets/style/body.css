@@ -205,16 +205,36 @@ input:focus {
 
 
 .box-status-user div p span,
-.box-status-machine div p span{
+.box-status-machine div p span {
     color: rgb(191, 97, 200);
 }
 
 
 .center-partida-stat img {
-    width: clamp(130px, 20vw, 150px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 120px;
+    background: transparent;
 }
 
-.box-funcions {
+.center-partida-stat p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 120px;
+    height: 120px;
+    background: transparent;
+    border: 3px solid var(--card-bg-hover);
+    border-radius: 50%;
+    font-size: 50px;
+}
+
+
+.box-funcions-mach,
+.box-funcions-user {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -227,7 +247,7 @@ input:focus {
     border-radius: 20px;
 }
 
-.box-funcions .box-escolhas-elm {
+.box-funcions-user .box-escolhas-elm {
     width: 250px;
     padding: 10px 5px;
     border-radius: 20px;
@@ -239,20 +259,60 @@ input:focus {
     color: var(--card-bg-hover);
 }
 
-.box-funcions .box-escolhas-elm img {
+.box-funcions-user .box-escolhas-elm img {
     width: 30px;
     cursor: pointer;
 }
 
-.box-funcions .box-escolhas-elm img:hover {
+.box-funcions-user .box-escolhas-elm img:hover {
     transform: scale(0.91);
 }
 
-.box-status-user {
+.box-status-machine {
     display: flex;
     align-items: center;
     flex-direction: row-reverse;
     text-align: right;
     gap: 10px;
     bottom: 20px;
+}
+
+.CircleLoad {
+    position: relative;
+    display: flex;
+    margin: 20px;
+    width: 70px;
+    height: 70px;
+    background:
+        linear-gradient(var(--card-bg), var(--card-bg)) padding-box,
+        linear-gradient(to bottom, var(--card-bg-hover), transparent) border-box;
+    border: 6px solid transparent;
+    border-radius: 50px;
+    animation: rotationsAnim 1s linear infinite;
+}
+
+@keyframes rotationsAnim {
+    0% {
+        transform: rotate(-360deg);
+    }
+}
+.center-partida-stat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.bnt-load {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: var(--card-bg-hover);
+    border: none;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.bnt-load:hover {
+    transform: scale(0.95);
 }
