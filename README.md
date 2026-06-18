@@ -73,4 +73,4 @@ LinkedIn: https://www.linkedin.com/in/ryan-devv
 
 ---
 
-banner: https://ik.imagekit.io/ubdczxve6/jokendev.jpg?updatedAt=1781797979706
+Banner: https://ik.imagekit.io/ubdczxve6/jokendev.jpg?updatedAt=1781797979706
