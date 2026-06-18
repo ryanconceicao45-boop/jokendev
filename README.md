@@ -38,21 +38,6 @@ O projeto foi desenvolvido para funcionar corretamente em:
 
 ---
 
-# 🎮 Como Jogar
-## Escolha uma opção:
-* Pedra ✊
-* Papel ✋
-* Tesoura ✌️
-
-## A máquina fará sua escolha automaticamente.
-
-## O resultado será exibido na tela:
-* Vitória ✅
-* Derrota ❌
-* Empate 🤝
-
----
-
 ## 💡 Aprendizados
 Durante o desenvolvimento deste projeto foram praticados conceitos como:
 
