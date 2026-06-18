@@ -38,8 +38,8 @@ O projeto foi desenvolvido para funcionar corretamente em:
 
 ---
 
-## 🎮 Como Jogar
-# Escolha uma opção:
+# 🎮 Como Jogar
+## Escolha uma opção:
 * Pedra ✊
 * Papel ✋
 * Tesoura ✌️
