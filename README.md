@@ -52,6 +52,10 @@ Durante o desenvolvimento deste projeto foram praticados conceitos como:
 
 ---
 
+  <img  src="https://ik.imagekit.io/ubdczxve6/jokendev.jpg?updatedAt=1781797979706" />
+  
+---
+
 ### 👨‍💻 Autor
 
 Ryan da Conceição
@@ -66,3 +70,7 @@ LinkedIn: https://www.linkedin.com/in/ryan-devv
 ⭐ Este projeto está sob a licença MIT.
 <br>
 ⭐ Se gostou do projeto, considere deixar uma estrela no repositório.
+
+---
+
+banner: https://ik.imagekit.io/ubdczxve6/jokendev.jpg?updatedAt=1781797979706
