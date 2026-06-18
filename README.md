@@ -6,15 +6,11 @@
 
 > O jogador escolhe entre Pedra, Papel ou Tesoura, enquanto a máquina faz uma escolha aleatória. O sistema compara as jogadas e exibe o resultado da partida em tempo real.
 
----
-
 ## 🛠️ Tecnologias utilizadas
 
 * HTML5
 * CSS3
 * JavaScript (ES6+)
-
----
 
 ## 🎯 Funcionalidades
 
@@ -27,16 +23,12 @@
 * [ ] Efeitos visuais interativos
 * [ ] Feedback instantâneo ao jogador
 
----
-
 ## 📱 Responsividade
 O projeto foi desenvolvido para funcionar corretamente em:
 
 * [ ] Desktop
 * [ ] Tablet
 * [ ] Smartphone
-
----
 
 ## 💡 Aprendizados
 Durante o desenvolvimento deste projeto foram praticados conceitos como:
