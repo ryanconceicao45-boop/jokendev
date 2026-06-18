@@ -1,4 +1,4 @@
-# 🧮 JokenDev
+### 🧮 JokenDev
 
 > Um jogo interativo de Pedra, Papel e Tesoura desenvolvido com HTML, CSS e JavaScript, onde o jogador enfrenta a máquina em partidas rápidas e divertidas.
 
@@ -6,13 +6,17 @@
 
 > O jogador escolhe entre Pedra, Papel ou Tesoura, enquanto a máquina faz uma escolha aleatória. O sistema compara as jogadas e exibe o resultado da partida em tempo real.
 
-## 🛠️ Tecnologias utilizadas
+### 🛠️ Tecnologias utilizadas
 
-* HTML5
-* CSS3
-* JavaScript (ES6+)
+<p align="left">
+  <img  src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+  <img  src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+  <img  src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=000" />
+</p>
 
-## 🎯 Funcionalidades
+---
+
+### 🎯 Funcionalidades
 
 * [ ] Escolha entre Pedra, Papel ou Tesoura
 * [ ] Jogador contra a máquina
@@ -23,36 +27,42 @@
 * [ ] Efeitos visuais interativos
 * [ ] Feedback instantâneo ao jogador
 
-## 📱 Responsividade
+---
+
+### 📱 Responsividade
 O projeto foi desenvolvido para funcionar corretamente em:
 
 * [ ] Desktop
 * [ ] Tablet
 * [ ] Smartphone
 
-## 💡 Aprendizados
+---
+
+### 💡 Aprendizados
 Durante o desenvolvimento deste projeto foram praticados conceitos como:
 
-* Manipulação do DOM
-* Eventos de clique
-* Condicionais
-* Arrays
-* Funções
-* Responsividade
-* Organização de código
-
----
-## 👨‍💻 Autor
-
-> Ryan da Conceição
-
-> Desenvolvedor Front-End apaixonado por criar experiências digitais modernas, acessíveis e intuitivas.
-
-* LinkedIn: https://www.linkedin.com/in/ryan-devv
+* [ ] Manipulação do DOM
+* [ ] Eventos de clique
+* [ ] Math.random()
+* [ ] Condicionais
+* [ ] Arrays
+* [ ] Funções
+* [ ] Responsividade
+* [ ] Organização de código
 
 ---
 
-## 📄 Licença
+### 👨‍💻 Autor
+
+Ryan da Conceição
+<br>
+Desenvolvedor Front-End apaixonado por criar experiências digitais modernas, acessíveis e intuitivas.
+
+LinkedIn: https://www.linkedin.com/in/ryan-devv
+
+---
+
+### 📄 Licença
 ⭐ Este projeto está sob a licença MIT.
 <br>
 ⭐ Se gostou do projeto, considere deixar uma estrela no repositório.
