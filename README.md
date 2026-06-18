@@ -53,6 +53,7 @@ Durante o desenvolvimento deste projeto foram praticados conceitos como:
 ## 👨‍💻 Autor
 
 > Ryan da Conceição
+
 > Desenvolvedor Front-End apaixonado por criar experiências digitais modernas, acessíveis e intuitivas.
 
 * LinkedIn: https://www.linkedin.com/in/ryan-devv
