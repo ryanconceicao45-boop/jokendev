@@ -52,9 +52,9 @@ Durante o desenvolvimento deste projeto foram praticados conceitos como:
 ---
 ## 👨‍💻 Autor
 
-Ryan da Conceição
+#Ryan da Conceição
 <br>
-Desenvolvedor Front-End apaixonado por criar experiências digitais modernas, acessíveis e intuitivas.
+> Desenvolvedor Front-End apaixonado por criar experiências digitais modernas, acessíveis e intuitivas.
 
 * LinkedIn: https://www.linkedin.com/in/ryan-devv
 
@@ -62,4 +62,5 @@ Desenvolvedor Front-End apaixonado por criar experiências digitais modernas, ac
 
 ## 📄 Licença
 ⭐ Este projeto está sob a licença MIT.
+<br>
 ⭐ Se gostou do projeto, considere deixar uma estrela no repositório.
